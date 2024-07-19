@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container-principal {
+  background: var(--back-col);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  color: var(--sec-col);
+}
+
+.cont-esq .cont-dir {
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.li-col {
+  font-size: 18pt;
+  margin: 5px 25px;
+  cursor: pointer;
+  color: var(--sec-col);
+}/*# sourceMappingURL=header.css.map */

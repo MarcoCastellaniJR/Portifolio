@@ -1,0 +1,40 @@
+ul {
+  margin-top: 10px;
+}
+
+li, a {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  font-size: 30pt;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.p-head {
+  color: black;
+  font-weight: bold;
+  font-size: 12pt;
+  font-family: "Comfortaa", sans-serif;
+  margin: 5px;
+}
+
+@keyframes animationFont {
+  0% {
+    color: var(--back-col);
+  }
+  20% {
+    color: black;
+  }
+  100% {
+    color: var(--back-col);
+  }
+}
+.disable {
+  color: rgba(0, 0, 0, 0.521);
+}/*# sourceMappingURL=header.css.map */
