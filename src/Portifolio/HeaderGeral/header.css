@@ -1,5 +1,84 @@
-ul {
-  margin-top: 10px;
+.cont-cen {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+.cont-cen .header-div {
+  height: 10vh;
+}
+.cont-cen .header-div ul {
+  width: 100%;
+  height: 100%;
+}
+.cont-cen .header-div ul li {
+  height: 100%;
+}
+.cont-cen .header-div ul li, .cont-cen .header-div ul a {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-height: 950px) {
+  .cont-cen .header-div ul li {
+    overflow: hidden;
+  }
+  .cont-cen .header-div ul a {
+    min-height: 50px;
+    padding: 2px;
+    overflow: hidden;
+  }
+}
+.cont-cen .body-header-div {
+  min-height: 90vh;
+}
+.cont-cen .body-header-div .footer-porti {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.cont-cen .body-header-div .footer-porti .footer-port {
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.cont-cen .body-header-div .footer-porti .footer-port .center-center {
+  min-height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+.cont-cen .body-header-div .footer-porti .footer-port .footer-fixed {
+  min-height: 70px;
+  width: 100vw;
+}
+.cont-cen .body-header-div .footer-porti .footer-port .footer-fixed ul {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cont-cen .body-header-div .footer-porti .footer-port .footer-fixed ul li {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+.cont-cen .body-header-div .footer-porti .footer-port .footer-fixed ul li a {
+  padding: 2px;
+  height: auto;
+}
+.cont-cen .body-header-div .footer-porti .footer-port .footer-fixed ul .footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.let-ins {
+  height: 100%;
 }
 
 li, a {
@@ -11,9 +90,10 @@ li, a {
 }
 
 a {
+  padding-bottom: 15px;
+  height: 100%;
   font-size: 30pt;
   cursor: pointer;
-  margin-top: 10px;
 }
 
 .p-head {
@@ -37,4 +117,12 @@ a {
 }
 .disable {
   color: rgba(0, 0, 0, 0.521);
+}
+
+.let-ins {
+  overflow: auto;
+}
+
+li {
+  width: 100%;
 }/*# sourceMappingURL=header.css.map */

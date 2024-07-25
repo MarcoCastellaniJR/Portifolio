@@ -22,7 +22,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0px;
+  padding: 0px;
 }
+.container-central{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 .App-link {
   color: #61dafb;

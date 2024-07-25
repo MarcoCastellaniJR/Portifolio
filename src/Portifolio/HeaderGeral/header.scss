@@ -1,5 +1,90 @@
-ul {
-    margin-top: 10px;
+
+.cont-cen{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    .header-div{
+        height: 10vh;
+        ul {
+            width: 100%;
+            height: 100%;
+            li{
+                height: 100%;
+            }
+            li , a{
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            @media(max-height:950px){
+                li{
+                    overflow: hidden;
+                }
+                p{
+                    //display: none;
+                }
+                a{
+                    min-height: 50px;
+                    padding: 2px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    .body-header-div{
+        min-height: 90vh;
+        .footer-porti{
+            min-height: 90vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            .footer-port{
+                height: max-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .center-center{
+                    min-height: 60%;
+                    width: 100%;
+                    overflow: hidden;
+                }
+                .footer-fixed{
+                    min-height: 70px;
+                    width: 100vw;
+                    ul{
+                        width: 100%;
+                        min-height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        li{
+                            display: flex;
+                            justify-content: start;
+                            width:  100%;
+                            a{  
+                                padding: 2px;
+                                height: auto;
+                            }
+                        }
+                        .footer-div{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.let-ins{
+    height: 100%;
 }
 li , a{
     color: black;
@@ -9,9 +94,10 @@ li , a{
     text-align: center;
 }
 a{
+    padding-bottom: 15px;
+    height: 100%;
     font-size: 30pt;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 .p-head {
@@ -21,6 +107,7 @@ a{
     font-family: "Comfortaa", sans-serif;
     margin: 5px;
     //animation: animationFont 5s infinite;
+
 }
 
 @keyframes animationFont{
@@ -31,3 +118,10 @@ a{
 .disable{
     color: rgba(0, 0, 0, 0.521);
 }
+.let-ins{
+    overflow: auto;
+}
+li{
+    width: 100%;
+}
+

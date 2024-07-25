@@ -1,5 +1,6 @@
 import React from 'react'
 import './personal/personal.css'
+import '../Home/index.css'
 
 
 const PersonalLetter = () => {
@@ -7,7 +8,7 @@ const PersonalLetter = () => {
     <>  
         <div className='per-let-body'>
             <div className='let-ins'>
-                <h3>Dear Recruiter,</h3>
+                <h3><b>Dear Recruiter,</b></h3>
                 <br></br><br></br>
         
                 <p>

@@ -1,21 +1,23 @@
 import './App.css';
-import Home from './Base/Home/Home'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Portifolio from './Portifolio/Home';
 import HeaderGeral from './Portifolio/HeaderGeral/header';
+import HomeProjects from './project-home';
 
 
 const router = createBrowserRouter([
   {
     path:'/',
     element: 
-    <div>
+    <div className='container-central'>
       <HeaderGeral/>
     </div>
     // element: <div><Home/></div>
   },{
     path:'prod',
-    element:<div><Home/></div>
+    element:
+    <div className='container-central'>
+      <HomeProjects/>
+    </div>
   }
 ])
 
